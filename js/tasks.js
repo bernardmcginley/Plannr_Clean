@@ -27,16 +27,3 @@ var overlayMaps = {
     "Completed Tasks": completedTasks.myLayerGroup,
     "Unstarted Tasks": unstartedTasks.myLayerGroup
 };
-
-task1.marker.on('dragend', function() {
-    task1.marker.bindPopup(task1.taskNotes + "<br>moved to " + task1.marker.getLatLng()).openPopup();
-});
-task2.marker.on('dragend', function() {
-    task2.marker.bindPopup(task2.taskNotes + "<br>moved to " + task2.marker.getLatLng()).openPopup();
-});
-task3.marker.on('dragend', function() {
-    task3.marker.bindPopup(task3.taskNotes + "<br>moved to " + task3.marker.getLatLng()).openPopup();
-});
-task4.marker.on('dragend', function() {
-    task4.marker.bindPopup(task4.taskNotes + "<br>moved to " + task4.marker.getLatLng()).openPopup();
-});

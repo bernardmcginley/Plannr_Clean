@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3abe17e7-eb4d-4b05-811d-82382222d603" name="Default" comment="">
+    <list default="true" id="3abe17e7-eb4d-4b05-811d-82382222d603" name="Default" comment="moved task move event to task prototype">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/maps-leaflet.js" afterPath="$PROJECT_DIR$/js/maps-leaflet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Task.js" afterPath="$PROJECT_DIR$/js/Task.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tasks.js" afterPath="$PROJECT_DIR$/js/tasks.js" />
     </list>
     <ignored path="Plannr_Clean.iws" />
@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="390">
+              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
               <folding>
                 <element signature="e#0#52#0" expanded="false" />
               </folding>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Task.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding>
                 <element signature="n#!!doc;n#Task#0" expanded="false" />
               </folding>
@@ -158,8 +158,8 @@
         <option value="$PROJECT_DIR$/js/Classes.js" />
         <option value="$PROJECT_DIR$/js/Layer.js" />
         <option value="$PROJECT_DIR$/Leaflet.html" />
-        <option value="$PROJECT_DIR$/js/Task.js" />
         <option value="$PROJECT_DIR$/js/maps-leaflet.js" />
+        <option value="$PROJECT_DIR$/js/Task.js" />
         <option value="$PROJECT_DIR$/js/tasks.js" />
       </list>
     </option>
@@ -497,7 +497,7 @@
       <workItem from="1485885416332" duration="6976000" />
       <workItem from="1485973414730" duration="1503000" />
       <workItem from="1486297892992" duration="7142000" />
-      <workItem from="1486308876426" duration="3596000" />
+      <workItem from="1486308876426" duration="4168000" />
     </task>
     <task id="LOCAL-00001" summary="added dragable">
       <created>1486311240679</created>
@@ -506,11 +506,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486311240679</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added events to tasks">
+      <created>1486312716938</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1486312716938</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44763000" />
+    <option name="totallyTimeSpent" value="45335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1413" extended-state="0" />
@@ -551,7 +558,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added dragable" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dragable" />
+    <MESSAGE value="Added events to tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added events to tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,14 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/maps-leaflet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -697,22 +697,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Task.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#Task#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="390">
+          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
           <folding>
             <element signature="e#0#52#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc;n#Task#0" expanded="false" />
           </folding>
         </state>
       </provider>

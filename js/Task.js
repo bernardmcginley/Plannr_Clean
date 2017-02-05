@@ -8,6 +8,10 @@ function Task (taskID, taskLocation, taskNotes, taskCompletion) {
     this.taskNotes = taskNotes;
     this.taskCompletion = taskCompletion;
     this.marker = L.marker(this.taskLocation, {draggable: true}).bindPopup(this.taskNotes);
+
+    this.marker.on('dragend', function() {
+        this.bindPopup(taskNotes + "<br>moved to " + this.getLatLng()).openPopup();
+    });
 }
 
 Task.prototype.getCompletion = function(){
