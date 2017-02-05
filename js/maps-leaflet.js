@@ -18,3 +18,9 @@ mymap.fitBounds(bounds);
 var image = L.imageOverlay('drawing/drawing.png', bounds).addTo(mymap);
 
 L.control.layers(null, overlayMaps).addTo(mymap);
+
+/* just a click event for now, but will eventually prompt for new task creation
+mymap.on('click', function (ev) {
+    alert(ev.latlng);
+});
+*/
