@@ -26,14 +26,14 @@ mymap.on('click', function (ev) {
 */
 var dataCollector = ' <form>' +
                     'Task ID:<br>' +
-                    '<input type="text" name="taskID"><br>' +
+                        '<input type="text" name="taskID"><br>' +
                     'Task Notes:<br>' +
-                    '<input type="text" name="taskNotes"><br>' +
+                        '<input type="text" name="taskNotes"><br>' +
                     'Trade:<br>' +
-                    '<input type="radio" name="taskTrade" value="Carpentry" checked>Carpentry<br>' +
-                    '<input type="radio" name="taskTrade" value="Plumbing" checked>Plumbing<br>' +
-                    '<input type="radio" name="taskTrade" value="Electrical" checked>Electrical<br>' +
-                    '<input type="radio" name="taskTrade" value="Constructiobn" checked>Construction<br>' +
+                        '<input type="radio" name="taskTrade" value="Carpentry" checked>Carpentry<br>' +
+                        '<input type="radio" name="taskTrade" value="Plumbing" checked>Plumbing<br>' +
+                        '<input type="radio" name="taskTrade" value="Electrical" checked>Electrical<br>' +
+                        '<input type="radio" name="taskTrade" value="Constructiobn" checked>Construction<br>' +
                     '<input type="submit" value="submit">' +
                     '</form>';
 
