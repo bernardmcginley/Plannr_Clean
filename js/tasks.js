@@ -2,20 +2,18 @@
  * Created by bernardmcginley on 05/02/2017.
  */
 //boilerplate ot make sure the for each method works as expected
-if (!Array.prototype.forEach)
-{
-    Array.prototype.forEach = function(fun /*, thisp*/)
-    {
+if (!Array.prototype.forEach) {
+    Array.prototype.forEach = function(fun /*, thisp*/) {
         var len = this.length;
-        if (typeof fun != "function")
+        if (typeof fun != "function") {
             throw new TypeError();
-
-        var thisp = arguments[1];
-        for (var i = 0; i < len; i++)
-        {
-            if (i in this)
-                fun.call(thisp, this[i], i, this);
         }
+            var thisp = arguments[1];
+            for (var i = 0; i < len; i++)
+                {
+                    if (i in this)
+                        fun.call(thisp, this[i], i, this);
+                }
     };
 };
 
@@ -34,8 +32,8 @@ var task4 = new Task("task4", [2048, 4680], "Install Plasterboard in Hallway", f
 function listBuilderTrade(trade) {
     var results = [];
 
-    function compareTrade(task, trade) {
-        if (task.trade == trade) {
+    function compareTrade(task) {
+        if (task.trade.localeCompare(trade) == 0) {
             results.push(task.marker);
         }
     }
@@ -45,36 +43,33 @@ function listBuilderTrade(trade) {
     return results;
 }
 
-
 function listBuilderComplete() {
-    var results1 = [];
+    var results = [];
 
     function isComplete(task) {
         if (task.taskCompletion) {
-            results1.push(task.marker);
+            results.push(task.marker);
         }
     }
 
     taskList.forEach(isComplete);
 
-    return results1;
+    return results;
 }
 
 function listBuilderIncomplete() {
-    var results2 = [];
+    var results = [];
 
     function isComplete(task) {
         if (!task.taskCompletion) {
-            results2.push(task.marker);
+            results.push(task.marker);
         }
     }
 
     taskList.forEach(isComplete);
 
-    return results2;
+    return results;
 }
-
-//taskList.forEach(checkTrade, "trade")
 
 var carpentryTasks = new TaskLayer("Carpentry Tasks", listBuilderTrade("Carpentry"));
 var plumbingTasks = new TaskLayer("Plumbing Tasks", listBuilderTrade("Plumbing"));

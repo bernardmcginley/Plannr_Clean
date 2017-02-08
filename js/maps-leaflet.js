@@ -24,3 +24,21 @@ mymap.on('click', function (ev) {
     alert(ev.latlng);
 });
 */
+var dataCollector = ' <form>' +
+                    'Task ID:<br>' +
+                    '<input type="text" name="taskID"><br>' +
+                    'Task Notes:<br>' +
+                    '<input type="text" name="taskNotes"><br>' +
+                    'Trade:<br>' +
+                    '<input type="radio" name="taskTrade" value="Carpentry" checked>Carpentry<br>' +
+                    '<input type="radio" name="taskTrade" value="Plumbing" checked>Plumbing<br>' +
+                    '<input type="radio" name="taskTrade" value="Electrical" checked>Electrical<br>' +
+                    '<input type="radio" name="taskTrade" value="Constructiobn" checked>Construction<br>' +
+                    '<input type="submit" value="submit">' +
+                    '</form>';
+
+mymap.on('click', function (ev) {
+    var tempTask = new Task("", ev.latlng, dataCollector, false, "");
+    tempTask.marker.addTo(mymap);
+    tempTask.marker.openPopup();
+});
