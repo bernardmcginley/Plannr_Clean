@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3abe17e7-eb4d-4b05-811d-82382222d603" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cd-arrow.svg" afterPath="$PROJECT_DIR$/img/cd-arrow.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cd-logo.svg" afterPath="$PROJECT_DIR$/img/cd-logo.svg" />
+=======
+    <list default="true" id="3abe17e7-eb4d-4b05-811d-82382222d603" name="Default" comment="fixed bug in listbuildertrade function">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/maps-leaflet.js" afterPath="$PROJECT_DIR$/js/maps-leaflet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tasks.js" afterPath="$PROJECT_DIR$/js/tasks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/trades.js" afterPath="$PROJECT_DIR$/js/trades.js" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
     </list>
     <ignored path="Plannr_Clean.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +39,13 @@
       <file leaf-file-name="leaflet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/leaflet.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="5025">
               <caret line="335" column="16" lean-forward="false" selection-start-line="335" selection-start-column="16" selection-end-line="335" selection-end-column="16" />
+=======
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
               <folding />
             </state>
           </provider>
@@ -40,29 +54,61 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-1460">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+            <state relative-caret-position="600">
+              <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#52#0" expanded="false" />
+              </folding>
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/tasks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#listBuilderTrade#0" expanded="false" />
+                <element signature="n#!!block;n#listBuilderComplete#0" expanded="false" />
+                <element signature="n#!!block;n#listBuilderIncomplete#0" expanded="false" />
+              </folding>
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="Task.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Task.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc;n#Task#0" expanded="false" />
+              </folding>
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
             </state>
           </provider>
         </entry>
@@ -71,8 +117,15 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
+<<<<<<< HEAD
               <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="17" />
               <folding />
+=======
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#TaskLayer#0" expanded="false" />
+              </folding>
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
             </state>
           </provider>
         </entry>
@@ -80,9 +133,17 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="345">
               <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding />
+=======
+            <state relative-caret-position="30">
+              <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+              <folding>
+                <element signature="e#54#536#0" expanded="false" />
+              </folding>
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
             </state>
           </provider>
         </entry>
@@ -151,14 +212,14 @@
         <option value="$PROJECT_DIR$/js/paper.js" />
         <option value="$PROJECT_DIR$/google.html" />
         <option value="$PROJECT_DIR$/js/maps.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/drawing/Drawing/Drawing/index.html" />
-        <option value="$PROJECT_DIR$/js/trades.js" />
         <option value="$PROJECT_DIR$/js/Classes.js" />
-        <option value="$PROJECT_DIR$/js/Layer.js" />
         <option value="$PROJECT_DIR$/Leaflet.html" />
-        <option value="$PROJECT_DIR$/js/maps-leaflet.js" />
+        <option value="$PROJECT_DIR$/js/Layer.js" />
         <option value="$PROJECT_DIR$/js/Task.js" />
+        <option value="$PROJECT_DIR$/js/trades.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/maps-leaflet.js" />
         <option value="$PROJECT_DIR$/js/tasks.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/test.html" />
@@ -174,12 +235,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="953" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+=======
+    <option name="y" value="24" />
+    <option name="width" value="1680" />
+    <option name="height" value="1022" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -330,8 +397,13 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +412,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -449,8 +524,14 @@
       <workItem from="1485885416332" duration="6976000" />
       <workItem from="1485973414730" duration="1503000" />
       <workItem from="1486297892992" duration="7142000" />
+<<<<<<< HEAD
       <workItem from="1486308876426" duration="4168000" />
       <workItem from="1486578041634" duration="5205000" />
+=======
+      <workItem from="1486308876426" duration="7338000" />
+      <workItem from="1486576366583" duration="5000" />
+      <workItem from="1486576390431" duration="6716000" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
     </task>
     <task id="LOCAL-00001" summary="added dragable">
       <created>1486311240679</created>
@@ -467,6 +548,7 @@
       <updated>1486312716938</updated>
     </task>
     <task id="LOCAL-00003" summary="moved task move event to task prototype">
+<<<<<<< HEAD
       <created>1486580060430</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
@@ -488,12 +570,48 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="953" extended-state="0" />
+=======
+      <created>1486313280385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1486313280385</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed task layer contents to function-built arrays">
+      <created>1486579284183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1486579284183</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed bug and type in listbuilder functions">
+      <created>1486580615183</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1486580615183</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55226000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1680" height="1022" extended-state="6" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09345238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21406086" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -505,7 +623,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -528,11 +645,18 @@
     <MESSAGE value="added dragable" />
     <MESSAGE value="Added events to tasks" />
     <MESSAGE value="moved task move event to task prototype" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="moved task move event to task prototype" />
+=======
+    <MESSAGE value="changed task layer contents to function-built arrays" />
+    <MESSAGE value="fixed bug and type in listbuilder functions" />
+    <MESSAGE value="fixed bug in listbuildertrade function" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug in listbuildertrade function" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -568,17 +692,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="https://github.com/bernardmcginley/Plannr_Clean.git">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/cd-arrow.svg">
+=======
+    <entry file="file://$PROJECT_DIR$/js/leaflet-src.map">
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tasks.js">
@@ -593,11 +723,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Task.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="210">
           <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding>
             <element signature="n#!!doc;n#Task#0" expanded="false" />
           </folding>
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
         </state>
       </provider>
     </entry>
@@ -611,18 +746,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/trades.js">
+    <entry file="file://$PROJECT_DIR$/css/leaflet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#52#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="5025">
+          <caret line="335" column="16" lean-forward="false" selection-start-line="335" selection-start-column="16" selection-end-line="335" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -705,8 +839,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+=======
+        <state relative-caret-position="105">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#52#0" expanded="false" />
+            <element signature="n#!!doc;n#TaskLayer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
+          <folding>
+            <element signature="n#!!doc;n#Task#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -745,22 +893,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="345">
           <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+=======
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/js/maps-leaflet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/js/leaflet-src.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
@@ -786,6 +947,26 @@
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/js/trades.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <element signature="e#54#536#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#listBuilderTrade#0" expanded="false" />
+            <element signature="n#!!block;n#listBuilderComplete#0" expanded="false" />
+            <element signature="n#!!block;n#listBuilderIncomplete#0" expanded="false" />
+>>>>>>> d8a28cd60733f1964cede614a142c23122d1620e
           </folding>
         </state>
       </provider>

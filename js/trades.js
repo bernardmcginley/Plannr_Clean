@@ -2,7 +2,7 @@
  * Created by bernardmcginley on 31/01/2017.
  */
 
-
+/*
 var TradeIcon = L.Icon.extend({
     options: {
         iconSize:   [20, 40],
@@ -28,3 +28,4 @@ var iconElectrical = new TradeIcon({
 var iconPlumbing = new TradeIcon({
     iconUrl:    'img/Plumbing.png'
 });
+*/
