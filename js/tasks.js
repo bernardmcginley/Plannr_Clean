@@ -36,7 +36,7 @@ function listBuilderTrade(trade) {
 
     function compareTrade(task, trade) {
         if (task.trade == trade) {
-            results.push(task);
+            results.push(task.marker);
         }
     }
 
@@ -45,37 +45,52 @@ function listBuilderTrade(trade) {
     return results;
 }
 
-function listBiulderCompletion(completion) {
-    var results = [];
 
-    if (completion) {
-        function isComplete(task) {
-            if (task.taskCompletion) {
-                results.push(task);
-            }
-        }
+function listBuilderComplete() {
+    var results1 = [];
 
-    } else {
-        function isComplete(task) {
-            if (!task.taskCompletion) {
-                results.push(task)
-            }
+    function isComplete(task) {
+        if (task.taskCompletion) {
+            results1.push(task.marker);
         }
     }
+
     taskList.forEach(isComplete);
 
-    return results;
+    return results1;
 }
+
+function listBuilderIncomplete() {
+    var results2 = [];
+
+    function isComplete(task) {
+        if (!task.taskCompletion) {
+            results2.push(task.marker);
+        }
+    }
+
+    taskList.forEach(isComplete);
+
+    return results2;
+}
+
 //taskList.forEach(checkTrade, "trade")
 
 var carpentryTasks = new TaskLayer("Carpentry Tasks", listBuilderTrade("Carpentry"));
 var plumbingTasks = new TaskLayer("Plumbing Tasks", listBuilderTrade("Plumbing"));
 var electricalTasks = new TaskLayer("Electrical Tasks", listBuilderTrade("Electrical"));
 var constructionTasks = new TaskLayer("Construction Tasks", listBuilderTrade("Construction"));
-var completedTasks = new TaskLayer("Completed Tasks", listBiulderCompletion(true));
-var unstartedTasks = new TaskLayer("Unstarted Tasks", listBiulderCompletion(false));
+var completedTasks = new TaskLayer("Completed Tasks", listBuilderComplete());
+var unstartedTasks = new TaskLayer("Unstarted Tasks", listBuilderIncomplete());
 
-var layers = [carpentryTasks.myLayerGroup, electricalTasks.myLayerGroup, constructionTasks.myLayerGroup, plumbingTasks.myLayerGroup, completedTasks.myLayerGroup, unstartedTasks.myLayerGroup];
+var layers = [
+    carpentryTasks.myLayerGroup,
+    electricalTasks.myLayerGroup,
+    constructionTasks.myLayerGroup,
+    plumbingTasks.myLayerGroup,
+    completedTasks.myLayerGroup,
+    unstartedTasks.myLayerGroup
+    ];
 
 //Controls
 var overlayMaps = {
