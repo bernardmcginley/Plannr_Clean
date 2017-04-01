@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/trades.js"></script>
+    <script type="text/javascript" src="js/Task.js"></script>
+    <script type="text/javascript" src="js/Layer.js"></script>
+    <script type="text/javascript" src="js/tasks.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+
+    <title>Plannr</title>
+</head>
+<body>
+<header class="cd-main-header">
+    <a href="#0" class="cd-logo"><img src="img/scanolan_online.png" alt="Logo"></a>
+
+    <div class="cd-search is-hidden">
+        <form action="#0">
+            <input type="search" placeholder="Search...">
+        </form>
+    </div> <!-- cd-search -->
+
+    <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+
+    <nav class="cd-nav">
+        <ul class="cd-top-nav">
+            <li><a href="#0">Chat</a></li>
+            <li><a href="#0">Support</a></li>
+            <li class="has-children account">
+                <a href="#0">
+                    <img src="img/cd-avatar.png" alt="avatar">
+                    Account
+                </a>
+                <ul>
+                    <li><a href="#0">My Account</a></li>
+                    <li><a href="#0">Edit Account</a></li>
+                    <li><a href="#0">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header> <!-- .cd-main-header -->
+
+<main class="cd-main-content">
+    <nav class="cd-side-nav">
+        <ul>
+            <li class="cd-label">Main</li>
+            <li class="has-children overview">
+                <a href="#0">Dashboard</a>
+
+                <ul>
+                    <li><a href="#0">Reports</a></li>
+                    <li><a href="#0">Budget</a></li>
+                    <li><a href="#0">Timeline</a></li>
+                </ul>
+            </li>
+            <li class="has-children images">
+                <a href="#0">Drawings</a>
+
+                <ul>
+                    <li><a href="#0">View</a></li>
+                    <li><a href="#0">Upload</a></li>
+                </ul>
+            </li>
+            <li class="has-children bookmarks">
+                <a href="#0">Documents</a>
+
+                <ul>
+                    <li><a href="#0">View</a></li>
+                    <li><a href="#0">Upload</a></li>
+                </ul>
+            </li>
+            <li class="has-children notifications active">
+                <a href="#0">Tasks<span class="count">3</span></a>
+
+                <ul>
+                    <li><a href="#0">All Tasks</a></li>
+                    <li><a href="#0">Completed</a></li>
+                    <li><a href="#0">In-Progress</a></li>
+                    <li><a href="#0">Outstanding</a></li>
+                </ul>
+            </li>
+
+            <li class="has-children comments">
+                <a href="#0">Comments</a>
+
+                <ul>
+                    <li><a href="#0">All Comments</a></li>
+                    <li><a href="#0">Edit Comment</a></li>
+                    <li><a href="#0">Delete Comment</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="cd-label">Secondary</li>
+            <li class="has-children images">
+                <a href="#0">Images</a>
+
+                <ul>
+                    <li><a href="#0">All Images</a></li>
+                    <li><a href="#0">Edit Image</a></li>
+                </ul>
+            </li>
+
+            <li class="has-children users">
+                <a href="#0">Users</a>
+
+                <ul>
+                    <li><a href="#0">All Users</a></li>
+                    <li><a href="#0">Edit User</a></li>
+                    <li><a href="#0">Add User</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="cd-label">Action</li>
+            <li class="action-btn"><a href="#0">+ New Task</a></li>
+            <li class="action-btn"><a href="#0">Filter</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-wrapper">
+        <br>
+        <input type="text" id="myInput3" onkeyup="mySearchTableFunction()" placeholder="Search for tasks..">
+        <table class="pure-table" table id="myTable">
+            <thead>
+            <tr>
+                <th width="5%">#</th>
+                <th width="50%">Description</th>
+                <th width="30%">Project</th>
+                <th width="10%">Year</th>
+                <th width="5%">Status</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>938</td>
+                <td>Install Containment</td>
+                <td>Acme office, Ballsbridge</td>
+                <td >30/01/2017</td>
+                <td>In-Progress</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>103</td>
+                <td>Mount Boxes</td>
+                <td>XYZ Co. Phase 1, Grange Castle</td>
+                <td>16/06/2017</td>
+                <td>In-Progress</td>
+            </tr>
+            <tr>
+                <td>717</td>
+                <td>Pull Wires</td>
+                <td>DataTek, Kildare</td>
+                <td>16/03/2017</td>
+                <td>Needs Review</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>484</td>
+                <td>Terminate Sockets</td>
+                <td>HyperGlobalCompuMegaNet, Dublin</td>
+                <td >24/02/2017</td>
+                <td>Scheduled</td>
+            </tr>
+            <tr>
+                <td>496</td>
+                <td>Test Sockets</td>
+                <td>XYZ Co. Phase 1, Grange Castle</td>
+                <td >22/11/2017</td>
+                <td>Scheduled</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>358</td>
+                <td>Install Lights</td>
+                <td>DataTek, Kildare</td>
+                <td >27/02/2017</td>
+                <td>Complete</td>
+            </tr>
+            <tr>
+                <td>380</td>
+                <td>Install Light Switches</td>
+                <td>HyperGlobalCompuMegaNet, Dublin</td>
+                <td >07/07/2017</td>
+                <td>Needs Review</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>460</td>
+                <td>
+                    Fit HVAC Ducts</td>
+                <td>DataTek, Kildare</td>
+                <td>19/03/2017</td>
+                <td>New</td>
+            </tr>
+            <tr>
+                <td>305</td>
+                <td>Fit VAC Controllers</td>
+                <td>DataTek, Kildare</td>
+                <td >24/06/2017</td>
+                <td>In-Progress</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>752</td>
+                <td>Test HVAC</td>
+                <td>HyperGlobalCompuMegaNet, Dublin</td>
+                <td >21/03/2017</td>
+                <td>In-Progress</td>
+            </tr>
+            <tr>
+                <td>339</td>
+                <td>Install Pipes</td>
+                <td>HyperGlobalCompuMegaNet, Dublin</td>
+                <td >18/01/2017</td>
+                <td>Complete</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>984</td>
+                <td>Fit Plumbing Textures</td>
+                <td>Acme office, Ballsbridge</td>
+                <td>28/04/2017</td>
+                <td>New</td>
+            </tr>
+            <tr>
+                <td>592</td>
+                <td>
+                    Test For Leaks</td>
+                <td>XYZ Co. Phase 1, Grange Castle</td>
+                <td>16/10/2017</td>
+                <td>Complete</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>253</td>
+                <td>Connect to Mains Power Supply</td>
+                <td>DataTek, Kildare</td>
+                <td>16/01/2017</td>
+                <td>Complete</td>
+            </tr>
+            <tr>
+                <td>672</td>
+                <td>Install Glazing</td>
+                <td>Acme office, Ballsbridge</td>
+                <td>02/01/2017</td>
+                <td>New</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>200</td>
+                <td>Fit Blinds</td>
+                <td>XYZ Co. Phase 1, Grange Castle</td>
+                <td>08/08/2017</td>
+                <td>Scheduled</td>
+            </tr>
+            <tr>
+                <td>500</td>
+                <td>Install Network Points</td>
+                <td>DataTek, Kildare</td>
+                <td >27/06/2017</td>
+                <td>New</td>
+            </tr>
+            <tr  class="pure-table-odd">
+                <td>190</td>
+                <td>Install Switches</td>
+                <td>HyperGlobalCompuMegaNet, Dublin</td>
+                <td >26/05/2017</td>
+                <td>New</td>
+            </tr>
+            <tr>
+                <td>435</td>
+                <td>
+                    Install Wifi</td>
+                <td>XYZ Co. Phase 1, Grange Castle</td>
+                <td>23/09/2017</td>
+                <td>Needs Review</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>253</td>
+                <td>Fit Locks</td>
+                <td>XYZ Co. Phase 1, Grange Castle</td>
+                <td>08/08/2017</td>
+                <td>New</td>
+            </tr>
+            <tr>
+                <td>765</td>
+                <td>Fit Card Readers</td>
+                <td>DataTek, Kildare</td>
+                <td >07/11/2017</td>
+                <td>New</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>818</td>
+                <td>Fit Keypads</td>
+                <td>XYZ Co. Phase 1, Grange Castle</td>
+                <td >03/06/2017</td>
+                <td>Complete</td>
+            </tr>
+            <tr>
+                <td>240</td>
+                <td>Test Access Control</td>
+                <td>XYZ Co. Phase 1, Grange Castle</td>
+                <td >04/10/2017</td>
+                <td>Scheduled</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>195</td>
+                <td>Fit Camera</td>
+                <td>HyperGlobalCompuMegaNet, Dublin</td>
+                <td >31/07/2017</td>
+                <td>Needs Review</td>
+            </tr>
+            <tr>
+                <td>231</td>
+                <td>Focus the cameras</td>
+                <td>Acme office, Ballsbridge</td>
+                <td >21/07/2017</td>
+                <td>New</td>
+            </tr>
+            <tr class="pure-table-odd">
+                <td>789</td>
+                <td>Fit DVR</td>
+                <td>DataTek, Kildare</td>
+                <td >28/01/2017</td>
+                <td>Needs Review</td>
+            </tr>
+            <tr>
+                <td>214</td>
+                <td>Place Office Furniture</td>
+                <td>DataTek, Kildare</td>
+                <td >18/05/2017</td>
+                <td>Complete</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+        <br/>
+
+    </div> <!-- .content-wrapper -->
+</main> <!-- .cd-main-content -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.menu-aim.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<script>
+    function myFunction() {
+        // Declare variables
+        var input, filter, ul, li, a, i;
+        input = document.getElementById('myInput');
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName('li');
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+<script>
+    function mySearchTableFunction() {
+        // Declare variables
+        var input, filter, table, tr, td, i;
+        input = document.getElementById("myInput3");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+                if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
